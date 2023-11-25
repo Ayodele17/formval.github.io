@@ -1,0 +1,92 @@
+
+
+body{
+    background: rgb(148, 66, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 95vh;
+    width: 30%;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(237, 197, 124);
+    border-bottom: #f0f0f0 solid;
+    padding:20px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header h2{
+    margin: 0;
+}
+
+.form{
+    padding: 20px;
+   
+}
+
+.formcontent{
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px;
+   
+}
+.formcontent label{
+    display: inline;
+    margin-bottom: 5px;
+}
+.formcontent input{
+    border:3px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    width: 95%;
+}
+
+.btn{
+    justify-content: center;
+    text-align: center;
+    
+   
+
+}
+.btn button{
+    justify-content: center;
+    background-color: rgb(22, 3, 67);
+    text-align: center;
+    width: 80%;
+    border-radius: 8px;
+    margin: 5px;
+    color: #f0f0f0;
+    border:1px #f0f0f0 solid;
+    height: 6vh;
+}
+
+.formcontent.error input{
+    border-color: red;
+}
+
+.formcontent.error small{
+    color: red;
+    visibility: visible;
+    display: inline;
+    padding: 0px;
+}
+.formcontent.success input{
+    border-color: green;
+}
+.formcontent small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+}
